@@ -8,7 +8,7 @@ interface
 
 
 uses
-  windows,Classes, SysUtils,JwaWinCrypt,jwawintype,jwabcrypt,utils{$ifndef fpc},math{$endif fpc};
+  windows,Classes, SysUtils,JwaWinCrypt,utils,jwawintype,jwabcrypt,math;
 
 //light version...
 type tmasterkey=record
@@ -96,7 +96,7 @@ type tdpapi_blob=record
     PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO=^BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO;
 
 
-function DecryptAES128(const Key: tbyte16;const IV:array of byte;const data: tbyte16;var output:tbyte16): boolean;
+//function DecryptAES128(const Key: tbyte16;const IV:array of byte;const data: tbyte16;var output:tbyte16): boolean;
 
 function EnCryptDecrypt(algid:dword;hashid:dword;CRYPT_MODE:dword;const key: tbytes;var buffer:tbytes;const decrypt:boolean=false):boolean;
 
