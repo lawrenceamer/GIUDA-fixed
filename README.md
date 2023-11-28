@@ -34,7 +34,14 @@ Optionally you can ask to SAVE the TGS and pass it next or on another Machine (a
 8. ask TGS with -save option. GIUDA'll save a file named TICKET.KIRBI so you can copy it
 ![image](https://github.com/foxlox/GIUDA/assets/28823598/5e7bc1c2-5b8c-4ed1-881e-4d62ed2eea08)
 
+# Compiling 
+for compiling the project you need lazarus-ide and you need to download offline copy of https://sourceforge.net/projects/jedi-apilib/
+- install lazarus on your system.
+- extract the content of jedi zip files into local folder on your system for example c:\TMP\jwa\..
+- go to project => options => paths and make sure to include the path of winapi units into the project, you can see the picture below fore reference.
+![image](https://github.com/lawrenceamer/GIUDA-fixed/assets/10256911/2e0fffc9-7f5a-4a87-bf6e-d62536d8dbcc)
 
+- hit build and get it ready.
 
 # Thanks
 A very big thanks to Erwan22, he does a very powerful set of Pascal Units for AD. Thx Erwan22, you're really great!
