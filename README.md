@@ -40,7 +40,6 @@ for compiling the project you need lazarus-ide and you need to download offline 
 - extract the content of jedi zip files into local folder on your system for example c:\TMP\jwa\..
 - go to project => options => paths and make sure to include the path of winapi units into the project, you can see the picture below fore reference.
 ![image](https://github.com/lawrenceamer/GIUDA-fixed/assets/10256911/2e0fffc9-7f5a-4a87-bf6e-d62536d8dbcc)
-
 - hit build and get it ready.
 
 # Thanks
